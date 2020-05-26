@@ -72,7 +72,7 @@ function clearBreedList(){
 }
 
 function filterBreeds(filterLetter) {
-  const filterBreeds = [];
+  const filteredBreeds = [];
 
   for(const breed of breeds){
     const startingLetterOfBreed = breed[0]; //first character of string
