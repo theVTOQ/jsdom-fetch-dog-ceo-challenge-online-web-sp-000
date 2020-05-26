@@ -3,7 +3,6 @@ console.log('%c HI', 'color: firebrick')
 const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 let breeds = [];
-let filteredBreeds = [];
 
 window.addEventListener('DOMContentLoaded', (event) => {
   //fetch(imgUrl).then(response => response.json()).then(json => addJSONImagesToDom(json));
